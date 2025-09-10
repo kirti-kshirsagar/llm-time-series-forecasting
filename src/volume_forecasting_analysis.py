@@ -1,7 +1,4 @@
 """
-Take Home Assignment: ML Researcher - Volume Forecasting
-=======================================================
-
 Objective: Transform an LLM into a time series forecasting model to predict 
 daily customer support ticket volumes.
 
