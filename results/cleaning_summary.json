@@ -1,0 +1,53 @@
+[
+  {
+    "step": "opened_cleaning",
+    "original_shape": [
+      2681455,
+      3
+    ],
+    "final_shape": [
+      6714,
+      2
+    ],
+    "outliers_removed": "204",
+    "date_range": [
+      "1998-01-02 00:00:00",
+      "2025-07-03 00:00:00"
+    ]
+  },
+  {
+    "step": "closed_cleaning",
+    "original_shape": [
+      6037,
+      2
+    ],
+    "final_shape": [
+      8762,
+      2
+    ],
+    "missing_dates_filled": 2725,
+    "date_range": [
+      "2000-01-03 00:00:00",
+      "2023-12-29 00:00:00"
+    ]
+  },
+  {
+    "step": "merging",
+    "opened_shape": [
+      6714,
+      2
+    ],
+    "closed_shape": [
+      8762,
+      2
+    ],
+    "merged_shape": [
+      9579,
+      3
+    ],
+    "date_range": [
+      "1998-01-02 00:00:00",
+      "2025-07-03 00:00:00"
+    ]
+  }
+]

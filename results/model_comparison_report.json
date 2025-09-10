@@ -1,0 +1,64 @@
+{
+  "model_metrics": {
+    "random_forest": {
+      "MAE": 871015.757442849,
+      "MSE": 2545989322826.6025,
+      "RMSE": 1595615.6563617075,
+      "R2": 0.5665574204389001
+    },
+    "linear_regression": {
+      "MAE": 1968428.5418744527,
+      "MSE": 5516395910008.372,
+      "RMSE": 2348700.898370921,
+      "R2": 0.06085981913712257
+    },
+    "arima": {
+      "MAE": 1652836.10414289,
+      "MSE": 6421501510101.8125,
+      "RMSE": 2534068.17392544,
+      "R2": -0.09323010675626153
+    },
+    "exponential_smoothing": {
+      "MAE": 3698815.926870555,
+      "MSE": 18996686490753.793,
+      "RMSE": 4358518.841390248,
+      "R2": -2.2340955721386613
+    },
+    "LLM_Adaptation": {
+      "MAE": 96913.2797844173,
+      "MSE": 31642390420.964733,
+      "RMSE": 177883.08076083215,
+      "R2": 0.9946130334465364
+    }
+  },
+  "best_models": {
+    "best_mae": "LLM_Adaptation",
+    "best_rmse": "LLM_Adaptation",
+    "best_r2": "LLM_Adaptation"
+  },
+  "llm_analysis": {
+    "metrics": {
+      "MAE": 96913.2797844173,
+      "MSE": 31642390420.964733,
+      "RMSE": 177883.08076083215,
+      "R2": 0.9946130334465364
+    },
+    "ranks": {
+      "mae_rank": "1",
+      "rmse_rank": "1",
+      "r2_rank": "1"
+    }
+  },
+  "features_used": [
+    "tickets_received_lag_1",
+    "tickets_received_lag_7",
+    "tickets_received_lag_14",
+    "tickets_received_rolling_mean_7",
+    "tickets_received_rolling_mean_14",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_monday",
+    "is_friday"
+  ]
+}
